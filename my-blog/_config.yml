@@ -1,0 +1,33 @@
+title: My Blog
+description: A blog about various topics and interests.
+url: https://myblog.com
+baseurl: ""
+author:
+  name: Your Name
+  email: yourname@example.com
+theme: minimal-mistakes
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+markdown: kramdown
+permalink: pretty
+paginate: 5
+paginate_path: "/page:num/"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - _data
+  - _includes
+  - _layouts
+  - _posts
+  - _sass
+  - assets
+  - .gitignore
+  - .jekyll-cache
+  - .sass-cache
+  - .DS_Store
+  - node_modules
+  - package.json
+  - yarn.lock
